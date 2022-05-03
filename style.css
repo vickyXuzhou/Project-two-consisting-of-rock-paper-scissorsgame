@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button1{
+    background-color: green;
+    width:auto;
+    height: 60px;
+    color: white;
+    padding: 16px 15px;
+    border-radius: 10px;
+    
+}
+.button2{
+    background-color: red;
+    width: 90px;
+    height: 60px;
+    color: white;
+    padding: 16px 15px;
+    border-radius: 10px;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    background-color: coral;  
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    /* height: 20%; */
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 20px 200px;
+   
+}
+.section1{
+    /* padding-top: 100px; */
+    background-color: aquamarine; 
+}
+.section1 h2{
+    padding-top: 20px;
+}
+#answer{
+    background-color: paleturquoise;
+    border: 1px black solid;
+    width: 100%;
+    /* margin: 0px 400px; */
+    text-align: center;
+}
+.section2{
+    margin-top: 20px;
+    height: auto;
+    background-color: rgb(43, 211, 226);
+}
+.section2 img{
+   height: 150px;
+   margin: 10px;
+   padding: 5px;
+   flex-wrap: wrap;
+   box-shadow: 4px 4px 7px yellow;
+   border-radius: 10px;
+}
+.orange{
+    background-color: orange;
+    color: black;
+}
+.gold{
+    background: rgb(255, 77, 0);
+}
+.yellow{
+    background: yellowgreen;
+}
+.flex-box-pick-color{
+    display: flex;
+   justify-content: space-between; 
+   padding: 20px 20px 40px ;
+}
+.section4{
+    margin: 20px 0;
+    background: rgb(255, 0, 30);
+}
+.green{
+    background: green;
+}
+.section2 h2{
+    padding: 20px 10px;  
+}
+#catimage{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+.purple{
+    background-color: purple;
+}
+.section3 img{
+    width: 150px;
+    /* height: 150px; */
+}
+.section3 h2{
+    padding: 20px 10px;  
+}
+h2{
+    padding: 20px 10px; 
+}
+.section3{
+    
+    margin-top: 20px;
+    background-color: rgb(226, 43, 171);
+}
+.image-col{
+flex-basis: 33%;
+/* margin-left: 20px; */
+}
+.game{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
